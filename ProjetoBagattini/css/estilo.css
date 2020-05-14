@@ -1,0 +1,336 @@
+#borda{
+	border:1px solid red;
+}
+#borda2{
+	border:1px solid blue;
+}
+
+#borda3{
+	border: 1px solid green;
+}
+.topo{
+	height: 100vh;
+}
+
+.fundoBody{
+background: #f4f2ec;
+overflow-x:hidden;
+	/*background-image: url("../img/Body/fundo.jpg");
+	background-attachment: fixed;	
+
+	background-repeat: repeat-y;
+	background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			position: relative;
+
+	*/
+
+}
+
+.caixafundotextos{
+
+	color:#f4f2ec;
+	background:#0083B9;
+	text-transform: uppercase;
+}
+
+.arredondamento{
+	border-radius: 250px;
+	width: 250px;
+	height: 250px;
+}
+
+.fundoTopoIndex{
+		background-image: url("../img/index/topo3.jpg");
+	background-attachment: fixed;	
+
+	background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			position: relative;
+}
+
+.fundoTopoCor{
+	background: #0083B9;
+}
+
+.fonteTopo{
+	font-family: 'Galada', cursive;
+	font-size: 5em;
+}
+
+.fundosecoes{
+	background: #f4f2ec;
+}
+
+.fundoSecao3Index{
+		background-image: url("../img/index/topo5.jpg");
+	background-attachment: fixed;	
+
+	background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			position: relative;
+}
+
+.fundoSecao2Index{
+		background-image: url("../img/index/fundosecao2.jpg");
+	background-attachment: fixed;	
+
+	background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			position: relative;
+}
+
+
+.fundoh2{
+	background-image: url("../img/index/Nossoservicos.png");
+}
+
+@font-face{
+	font-family: Dragoniscoming;
+	src: url('../fontes/Dragoniscoming.otf');
+}
+
+
+@media (max-width: 576px){
+
+	h3{
+	font-family: Dragoniscoming;
+	font-size: 2em;
+	color: black;
+	
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	h3{
+	font-family: Dragoniscoming;
+	font-size: 3em;
+	color: black;
+}
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	h3{
+	font-family: Dragoniscoming;
+	font-size: 4em;
+	color: black;
+}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	h3{
+	font-family: Dragoniscoming;
+	font-size: 5em;
+	color: black;
+}
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	h3{
+	font-family: Dragoniscoming;
+	font-size: 7em;
+	color: black;
+}
+ }
+
+
+
+.menu{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index:998;
+
+}
+
+.fundomenu{
+	background: #0083B9;
+}
+
+.fundomenu2{
+background: #4682B4;
+}
+.formatarcaixadetextos{
+	color: blue;
+	background: red;
+}
+
+.telainteira{
+	height: 100vh;
+}
+
+.corSecao1{
+	background: white;
+}
+.corSecao2{
+	background: white;
+}
+
+.caixa{
+	padding: 60px 0;
+	
+}
+
+.corStrongTopo1{
+	color:white;
+}
+
+.linhafooter{
+    
+    border-top: 1px solid white;
+    text-align: center;
+      
+}
+.linhafooter2{
+    
+    border-top: 1px solid black;
+    text-align: center;
+      
+}
+.corBotao{
+	background: #0083B9;
+}
+
+#endereco{
+	background: #0083B9;
+	color: white;
+}
+
+#endereco2{
+	background: #f4f2ec;
+	color: black;
+}
+
+#fonteendereco{
+	padding: 5px 5px;
+}
+
+.corStrongTopo2{
+	color: white;
+}
+
+footer p a{
+	margin:5px 15px;
+
+}
+
+footer h5{
+	color: black;
+	font-size: 0.9em;
+}
+
+.divisor{
+	width: 1px;
+	background:white;
+	margin:12px 15px;
+}
+
+
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	border: 2px solid black;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin-left: -15px;
+	display: block;
+	z-index: 10;
+    text-align: center;
+}
+
+.scroll-down2 {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	/* border: 2px solid white; */
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin-left: -15px;
+	display: block;
+	z-index: 10;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color:black;
+	background: white;
+
+}
+
+.navbar-light .navbar-nav .nav-link:li{
+	background: white
+
+}
+
+
+.scroll-down2 span{
+    position: relative;
+    color: white;
+    -webkit-animation-name: drop;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+
+/*animação scroll topo */
+.scroll-down span{
+    position: relative;
+    color: black;
+    -webkit-animation-name: drop;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+@-webkit-keyframes drop	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
+
+@keyframes drop	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
+
+/* fim animação scroll topo */
